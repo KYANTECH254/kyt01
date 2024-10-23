@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Choice WIN</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+<link rel="manifest" href="assets/fav/site.webmanifest">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo-object">
+            <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="list-header-objects">
+            <li class="list-headers"><a href="index.html" class="headers-link"> Home</a></li>
+            <li class="list-headers"><a href="aviator.html" class="headers-link">Aviator</a> </li>
+            <li class="list-headers deposit"><a href="account.html" class="headers-link"> Deposit</a></li>
+            <li class="list-headers withdraw"><a href="account.html" class="headers-link">Withdraw</a> </li>
+            <li class="list-headers"><a href="account.html" class="headers-link">Account</a> </li>
+        </ul>
+        <div class="balance-object">
+        </div>
+    </header>
+    <header class="sub-header">
+        <div class="sub-logo-object">
+            <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="sub-deposit-object">
+                       <a href="account.html">
+                <button type="button" class="sub-deposit-btn">
+                   <div class="sub-deposit-text">Deposit</div>
+                    <div class="sub-deposit-value">KSH 0.00</div>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <div class="content">
+        <section class="list-section-objects">
+            <div class="section-title">Account</div>
+
+            <div class="list-account-options">
+
+
+                <div id="user-page" class="user-page">
+                    <div class="account-info">
+                        <div class="account-1" id="account-1"></div>
+                        <div class="account-2" id="account-2"></div>
+                       
+                    </div>
+
+                    <div class="account-funds-section">
+                        <div class="deposit-section">
+                            <div class="form-title">Deposit</div>
+                            <div class="register-form">
+                                <form action="" id="deposit-form">
+                                    <div id="result" class="result"></div>
+                                    <label for="Deposit" class="form-label">Deposit</label>
+                                    <div class="deposit-options">
+                                        <div class="deposit-item" data-value="100">Ksh 100</div>
+                                        <div class="deposit-item" data-value="200">Ksh 200</div>
+                                        <div class="deposit-item" data-value="500">Ksh 500</div>
+                                        <div class="deposit-item" data-value="1000">Ksh 1,000</div>
+                                    </div>
+
+                                    <input type="text" id="Deposit-input" class="input-form" placeholder="Enter Amount">
+                                    <div class="form-btns-object">
+                                        <button type="button" id="deposit" class="form-btns">Deposit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="withdraw-section">
+                            <div class="form-title">Withdraw</div>
+                            <div class="register-form">
+                                <form action="">
+                                    <div id="result" class="result"></div>
+                                    <label for="Withdraw" class="form-label">Withdraw</label>
+                                    <input type="text" id="Withdraw-input" class="input-form" placeholder="Enter Amount">
+                                    <div class="form-btns-object">
+                                        <button type="button" id="withdraw" class="form-btns">Withdraw</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="logout-section">
+                            <div class="form-title">Log Out</div>
+                            <div class="register-form">
+                                <form action="">
+                            <div class="result" id="result"></div>
+                                    <div class="form-btns-object">
+                                        <button type="button"id="logout" class="form-btns">Logout</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="non-user-page" class="non-user-page">
+                    <div class="form-title">Sign Up or Sign In</div>
+                    <div class="register-form">
+                        <form action="" id="userForm" class="register">
+                            <div id="result" class="result"></div>
+                            <label for="Phone" class="form-label">Phone Number</label>
+                            <input type="text" id="phone" class="input-form" placeholder="Enter Phone Number">
+                            <label for="Password" class="form-label">Password</label>
+                            <input type="text" id="password" class="input-form" placeholder="Enter Password">
+                            <div class="form-btns-object">
+                                <button type="submit" class="form-btns" id="sign-up">Sign Up</button>
+                                <button type="submit" class="form-btns" id="sign-in">Sign In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+     <!-- Footer -->
+     <footer class="main-footer">
+        <ul class="list-footer-objects">
+            <li class="list-footers"><a href="#" class="footers-link">Faqs</a></li>
+            <li class="list-footers"><a href="#" class="footers-link">Support</a></li>
+            <li class="list-footers"><a href="#" class="footers-link">Affiliate Program</a></li>
+        </ul>
+        <div class="disclaimer-object">
+            Disclaimer: CHOICEWIN operates under the license number BCLB000378 and is committed to providing a
+            responsible gaming environment. All gambling activities should be undertaken with caution and within your
+            means. We encourage players to gamble responsibly and seek help if gambling becomes a problem. By
+            participating, you confirm that you are of legal age and fully aware of the risks involved.
+        </div>
+        <ul class="list-copyright">
+            <li class="copyright-info">
+                &copy;2024 Choice WIN. All rights reserved
+            </li>
+        </ul>
+    </footer>
+
+    <div class="sub-bottom-header">
+        <ul class="bottom-header-items">
+            <li class="bottom-header-item"><a href="index.html" class="bottom-header-link">Home</a></li>
+            <li class="bottom-header-item"><a href="aviator.html" class="bottom-header-link">Aviator</a></li>
+            <li class="bottom-header-item"><a href="account.html" class="bottom-header-link">Withdraw</a></li>
+            <li class="bottom-header-item"><a href="account.html" class="bottom-header-link">Account</a></li>
+        </ul>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

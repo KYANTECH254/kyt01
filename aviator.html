@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator | Choice WIN</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+<link rel="manifest" href="assets/fav/site.webmanifest">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="logo-object">
+            <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <ul class="list-header-objects">
+            <li class="list-headers"><a href="index.html" class="headers-link"> Home</a></li>
+            <li class="list-headers"><a href="aviator.html" class="headers-link">Aviator</a> </li>
+            <li class="list-headers deposit"><a href="account.html" class="headers-link"> Deposit</a></li>
+            <li class="list-headers withdraw"><a href="account.html" class="headers-link">Withdraw</a> </li>
+            <li class="list-headers"><a href="account.html" class="headers-link">Account</a> </li>
+        </ul>
+        <div class="balance-object">
+        </div>
+    </header>
+    <header class="sub-header">
+        <div class="sub-logo-object">
+            <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="sub-deposit-object">
+            <a href="account.html">
+                <button type="button" class="sub-deposit-btn">
+                   <div class="sub-deposit-text">Deposit</div>
+                    <div class="sub-deposit-value">KSH 0.00</div>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <div class="content">
+        <div class="game-container">
+
+            <div class="game-nav">
+                <h1 class="game-heading">Aviator</h1>
+                <div id="game-info-btn" class="game-info" type="button">i</div>
+            </div>
+            <div class="game-info-menu">
+                <div class="info-items">Max Cash Out: Ksh 1,500,000</div>
+                <div class="info-items">Max Stake: Ksh 20,000</div>
+                <div class="info-items">Min Stake: Ksh 10</div>
+            </div>
+
+            <div class="game-container-object">
+
+                <div class="aviator-game">
+                    <canvas id="planeCanvas"></canvas>
+                    <div class="controls">
+                        <input type="number" id="betAmount" placeholder="Stake">
+                        <button id="betBtn">Place Bet</button>
+                        <button id="cashoutBtn" disabled>Cash Out</button>
+                    </div>
+                    <p id="result"></p>
+                    <div class="alert" id="alert">
+                        <p class="alert-message"></p>
+                    </div>
+                </div>
+
+                <div class="aviator-game-round-results">
+                    <div class="game-results-container">
+                        <div class="game-results-container-header">ROUND HISTORY</div>
+                        <div class="game-header-container">
+                            <div class="game-header-1">ROUND</div>
+                            <div class="game-header-2">OUTCOME</div>
+                        </div>
+                      <div class="game-body-container" id="game-body-container">
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+     <!-- Footer -->
+     <footer class="main-footer">
+        <ul class="list-footer-objects">
+            <li class="list-footers"><a href="#" class="footers-link">Faqs</a></li>
+            <li class="list-footers"><a href="#" class="footers-link">Support</a></li>
+            <li class="list-footers"><a href="#" class="footers-link">Affiliate Program</a></li>
+        </ul>
+        <div class="disclaimer-object">
+            Disclaimer: CHOICEWIN operates under the license number BCLB000378 and is committed to providing a
+            responsible gaming environment. All gambling activities should be undertaken with caution and within your
+            means. We encourage players to gamble responsibly and seek help if gambling becomes a problem. By
+            participating, you confirm that you are of legal age and fully aware of the risks involved.
+        </div>
+        <ul class="list-copyright">
+            <li class="copyright-info">
+                &copy;2024 Choice WIN. All rights reserved
+            </li>
+        </ul>
+    </footer>
+
+    <div class="sub-bottom-header">
+        <ul class="bottom-header-items">
+            <li class="bottom-header-item"><a href="index.html" class="bottom-header-link">Home</a></li>
+            <li class="bottom-header-item"><a href="aviator.html" class="bottom-header-link">Aviator</a></li>
+            <li class="bottom-header-item"><a href="account.html" class="bottom-header-link">Withdraw</a></li>
+            <li class="bottom-header-item"><a href="account.html" class="bottom-header-link">Account</a></li>
+        </ul>
+    </div>
+</body>
+<script src="aviator.js"></script>
+<script src="main.js"></script>
+
+</html>
